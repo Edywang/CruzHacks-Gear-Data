@@ -1,4 +1,4 @@
-#include "cruzhacks-gear-data.h"
+#include <cruzhacksgeardata.h>
 #include "bt/bt_advertiser.h"
 #include "bt/bt_common.h"
 

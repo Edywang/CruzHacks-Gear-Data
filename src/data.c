@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
+#include <cruzhacksgeardata.h>
 #include "data.h"
 #include "bt/bt_advertiser.h"
-#include "cruzhacks-gear-data.h"
 
 #define APPEARANCE_GENERIC_HEART_RATE_SENSOR 832
 #define HEART_RATE_SENSOR_DATA_INDEX 0	/* Bits per minute value is stored at index 0 of the sensor's data read. */

@@ -1,5 +1,5 @@
+#include <cruzhacksgeardata.h>
 #include <system_info.h>
-#include "cruzhacks-gear-data.h"
 #include "bt/bt_common.h"
 
 #define FEATURE_BLUETOOTH "http://tizen.org/feature/network.bluetooth"
@@ -17,7 +17,7 @@ static bool __is_feature_supported(const char *feature)
 	bool is_supported = false;
 	int ret = system_info_get_platform_bool(feature, &is_supported);
 	if (ret != SYSTEM_INFO_ERROR_NONE) {
-		dlog_print(DLOG_ERROR, LOG_TAG, "Function system_info_get_platform_bool() failed with error: %d.", get_error_message(ret));
+		dlog_print(DLOG_ERROR, LOG_TAG, "Function system_info_get_platform_bool() failed with error: %s.", get_error_message(ret));
 		return false;
 	}
 

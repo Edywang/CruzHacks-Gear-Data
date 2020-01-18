@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
+#include <cruzhacksgeardata.h>
 #include <service_app.h>
 #include <system_settings.h>
 #include <Elementary.h>
-#include "cruzhacks-gear-data.h"
 #include "data.h"
 #include "bt/bt_common.h"
 #include "hrs/hrs_listener.h"

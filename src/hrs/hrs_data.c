@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
+#include <cruzhacksgeardata.h>
 #include <string.h>
 #include <stdlib.h>
 #include "hrs/hrs_data.h"
-#include "cruzhacks-gear-data.h"
 
 #define HRM_DATA_SIZE_MAX 7
 #define BSL_DATA_SIZE_MAX 1

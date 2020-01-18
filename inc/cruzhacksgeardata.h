@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef _CRUZHACKS-GEAR-DATA_H
-#define _CRUZHACKS-GEAR-DATA_H
+#ifndef _CRUZHACKSGEARDATA_H
+#define _CRUZHACKSGEARDATA_H
 
 #include <dlog.h>
 

@@ -1,5 +1,5 @@
+#include <cruzhacksgeardata.h>
 #include <sensor.h>
-#include "cruzhacks-gear-data.h"
 #include "hrs/hrs_common.h"
 
 /*

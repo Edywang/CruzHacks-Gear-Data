@@ -14,7 +14,7 @@
  */
 static bool __is_feature_supported(const char *feature)
 {
-	bool is_supported = false;t
+	bool is_supported = false;
 	int ret = system_info_get_platform_bool(feature, &is_supported);
 	if (ret != SYSTEM_INFO_ERROR_NONE) {
 		dlog_print(DLOG_ERROR, LOG_TAG, "Function system_info_get_platform_bool() failed with error: %d.", get_error_message(ret));

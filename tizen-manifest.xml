@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.example.cruzhacks-gear-data" version="1.0.0">
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.2" package="org.cruzhacks.geardata" version="1.0.0">
     <profile name="wearable"/>
-    <service-application appid="org.example.cruzhacks-gear-data" exec="cruzhacks-gear-data" multiple="false" nodisplay="true" taskmanage="false" type="capp">
+    <service-application appid="org.cruzhacks.geardata" exec="cruzhacks-gear-data" multiple="false" nodisplay="true" taskmanage="false" type="capp">
         <label>cruzhacks-gear-data</label>
         <icon>cruzhacks-gear-data.png</icon>
     </service-application>
     <privileges>
-        <privilege>http://tizen.org/privilege/bluetooth</privilege>
         <privilege>http://tizen.org/privilege/healthinfo</privilege>
+        <privilege>http://tizen.org/privilege/bluetooth</privilege>
     </privileges>
     <feature name="http://tizen.org/feature/network.bluetooth.le">true</feature>
     <feature name="http://tizen.org/feature/network.bluetooth">true</feature>
